@@ -16,5 +16,16 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <!-- Vendor -->
+  <project path="vendor/uranus" name="android_vendor_uranus" remote="uranus" />
   
+  <!-- Device repos -->
+  <project path="device/uranus/sepolicy" name="android_device_uranus_sepolicy" remote="uranus" />
+
+  <!-- Framework repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="uranus" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="uranus" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="uranus" />
+
 </manifest>

@@ -5,4 +5,16 @@
   <remove-project name="LineageOS/android_build" />
   <remove-project name="LineageOS/android_build_blueprint" />
   <remove-project name="LineageOS/android_build_soong" />
+  
+  <!-- Vendor -->	   
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  
+  <!-- Device repos -->
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+
+  <!-- Framework repos -->
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+
 </manifest>
