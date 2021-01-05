@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+
+  <!-- General repos -->
+  <remove-project name="LineageOS/android_build" />
+  <remove-project name="LineageOS/android_build_blueprint" />
+  <remove-project name="LineageOS/android_build_soong" />
+</manifest>

@@ -1,0 +1,36 @@
+# UranusOS #
+
+## **Getting Started** ##
+
+
+**To initialize your local repository using the UranusOS trees, use a command like this** :
+
+```bash
+repo init -u https://github.com/UranusOS/android_manifest -b 11
+```
+## Then to sync up
+
+```bash
+repo sync --force-sync --current-branch --no-tags --no-clone-bundle -j$(nproc --all)
+```
+# 
+
+## Its Time For Compile
+
+```bash
+
+$ . build/envsetup.sh
+$ lunch uranus_$device-userdebug
+$ make uranus -jX (X = number of threads you want to use)
+```
+# 
+
+### Credits ###
+
+* [**LineageOS**](https://github.com/LineageOS)
+
+### Other Resources ###
+
+* [**Telegram Public Chat**](https://t.me/uranusos_chat)
+* [**Telegram Channel**](https://t.me/UranusOS)
+
